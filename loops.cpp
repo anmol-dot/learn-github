@@ -4,6 +4,14 @@ int main()
 {
     for (int i = 0; i < 3; i++)
     {
-        cout << "I am a loop " << i + 1 << endl;
+        cout << "I am for loop " << i + 1 << endl;
+    }
+
+    cout << "Oh! I forgot about while Loop" << endl;
+    int i = 1;
+    while (i < 4)
+    {
+        cout << "I am while loop" << i << endl;
+        i++;
     }
 }
